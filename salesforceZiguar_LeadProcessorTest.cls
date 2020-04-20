@@ -18,7 +18,7 @@ public class LeadProcessorTest {
         
         test.startTest();
         
-        Leadprocessor lp = new Leadprocessor();
+        LeadProcessor lp = new LeadProcessor();
         Id batchId = Database.executeBatch(lp);
         Test.stopTest();
             
